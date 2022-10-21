@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Benton Sans', sans-serif;
+}
+
+#page-body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    color: #3B3B3B;
+}
+
+#problem-text{
+    margin-top: 3em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #3B3B3B;
+}
+
+#content-text{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+    font-size: 1.25em;
+}
+/* #content-text img{
+    float: left;
+} */
+
+#content-text-right, #context-text-left, p{
+    margin-right: 1em;
+    margin-left: 1em;
+    line-height: 1.8;
+}
+#content-text-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#img-div{
+    overflow: hidden;
+}
+#body-img{
+    width: 100%;
+}
+
+#button-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+
+    margin: 3em 0em 0em 4em;
+}
+
+.desmosButton{
+    font-size: 1.25em;
+
+    border-radius: 27px;
+    width: fit-content;
+    
+    padding: 0em 2em 0em 2em;
+
+    box-shadow: 2px 2px;
+
+    cursor: pointer;
+
+    background-color: #9C0D63;
+    color: white;
+    border: 2px solid #9C0D63;
+}
+.submit-button{
+    margin: 1em 2em 5em 8.5em;
+    right: 0;
+}
+.save-button{
+    margin: 1em 2em 1em 2em;
+    padding: 0.5em 5em 0.5em 5em ;
+}
+
+#confidence-button{border: none; width: fit-content;}
+#confidence-button img{
+    /* background-color: #F6F6F6;
+    color: #3B3B3B;
+    border: 2px solid #F6F6F6; */
+    cursor: pointer;
+    
+}
+
+
+/* Modal Elements */
+.imgContainer img{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+#Face-Rows{
+    display: flex;
+    justify-content: space-between;
+}
+#Face-Rows li{
+    list-style: none;
+    margin: 1em;
+    width: fit-content;
+    text-align: center;
+}
+.button1, .button2, .button3{
+    font-size: 1.25em;
+
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+
+    padding: .5em;
+}
+/* For display centering purposes only,remove if implemented correctly */
+.button2{
+    margin-right: 2em;
+}
+.button1:hover {background-color: #F2E7F5; border-radius: 27px;} /* Light Purple */
+.button2:hover {background-color: #FBF6E6; border-radius: 27px;}
+.button3:hover {background-color: #e6f3f0; border-radius: 27px;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 25px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  #template-options{
+    width: 100%;
+  }
+  .imgButton{
+    text-align: center;
+  }
+  .modal-content h4{
+    margin-bottom: 1em;
+  }
+  #studentNote{
+    width: 100%;
+  }

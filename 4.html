@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div id="nav-message">
+            Student Screen Preview
+        </div>
+
+        <div id="extension-buttons">
+
+        </div>
+
+        <div id="page-movement">
+
+        </div>
+    </nav>
+
+    <div id="page-body">
+        <div id="img-div"> 
+            <div id="problem-text">
+                <h1>Problem 4</h1>
+            </div>
+    
+            <div id="content-text">
+                <div id='content-text-left'>
+                    <img id='body-img'src="template-images/4.png" alt="Body text of page 1">
+                </div>
+        
+                <div id='content-text-right'>
+                    <p>
+                        Determine the volume and surface area of the prism.<br>
+                        Prism A: 3 cm by 3 cm by 3 cm<br>
+                        <br>
+                        Volume:<br>
+                        <input type="textarea" value="0"/><br>
+                        <br>
+                        Surface Area:<br>
+                        <input type="textarea" value="0"/><br>
+                    </p>    
+
+                    <div id="button-area">
+                        <button id="confidence-button">
+                            <img src="template-images/confidence-img.png" width="400px"/>
+                        </button>
+                        <button id='submit-button' class="desmosButton submit-button">
+                            Submit
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+    
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>How Confident are you about answering questions like this one?</p>
+          <div class="imgContainer">
+
+            <div>
+                <img id="template-options" src="template-images/options-no-text.png"/>
+            </div>
+            <ul id="Face-Rows">
+                <li><button class="button1">Not Confident at all </button></li>
+                <li><button class="button2">Neutral </button></li>
+                <li><button class="button3">Super Confident </button></li>
+            </ul>
+            
+            
+            <!-- <div class="imgButton">
+                <button value="test">test</button>
+                <button value="test">test</button>
+                <button value="test">test</button>
+            </div> -->
+          </div>
+
+          <div>
+            <h4>ADD A NOTE</h4>
+            <textarea id="studentNote">I feel this way because</textarea>
+          </div>
+
+          <div class="saveButtonArea" style="text-align: center;">
+            <button id='save-button' class="desmosButton save-button"> Save </button>
+          </div>
+        </div>
+      
+    </div>
+
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
